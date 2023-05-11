@@ -1,0 +1,62 @@
+1. Find when , where satisfies the recurrence relation with .
+
+Ans. Question 1 is incomplete.
+
+Q2. A curve represented in its parametric form is represented as:
+Find its curvature.
+
+Ans. To find the curvature of a curve represented parametrically, we can use the formula:
+
+K = |(xd*ydd - yd*xdd)/((xd^2 + yd^2)^(3/2))|
+
+where xd and yd are the first derivatives of x and y with respect to the parameter, and xdd and ydd are the second derivatives of x and y with respect to the parameter.
+
+In this case, we have:
+
+xd = -2sin(t)
+yd = 2cos(t)
+xdd = -2cos(t)
+ydd = -2sin(t)
+
+Substituting these values into the formula, we get:
+
+K = |((-2sin(t))*(2sin(t)) - (2cos(t))*(-2cos(t)))/(((-2sin(t))^2 + (2cos(t))^2)^(3/2))|
+
+Simplifying the numerator and denominator, we get:
+
+K = |4/8cos^3(t)|
+
+K = |1/(2cos^3(t))|
+
+Therefore, the curvature of the curve is |1/(2cos^3(t))|.
+
+
+
+3. Draw the following [no solution required, just diagrams]:
+(a) Plot -2/3 on the number line.
+(b) A cone of radius 4 cm and height 6 cm atop a cube of side length 8 cm.
+
+Ans. (a) To plot -2/3 on the number line, we start at 0 and move to the left by a distance of 2/3 units. The resulting point is marked with a dot. Alternatively, we can divide the number line into three equal parts and mark the point that is two parts to the left of zero.
+
+```
+   -2/3 
+<-----|----|---->
+      0   1    2
+```
+
+(b) To draw a cone of radius 4 cm and height 6 cm atop a cube of side length 8 cm, we can start by drawing the cube. Then we draw the cone on top of it so that the center of the base of the cone is at the center of the top face of the cube. The cone should be drawn so that it is tangent to the top face of the cube along a circle of radius 4 cm. The height of the cone should be 6 cm, so the tip of the cone will extend beyond the top face of the cube by a distance of 6 cm.
+
+```
+         ___________
+        /          /|
+       /          / |
+      /__________/  |
+      |          |  |
+      |    /     |  |
+      |   /      |  |
+      |  /       |  |
+      | /        |  |
+      |/_________| /
+     /           |/
+    /            |
+```
